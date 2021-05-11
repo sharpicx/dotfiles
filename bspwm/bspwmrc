@@ -1,0 +1,52 @@
+#! /bin/sh
+
+#
+# make sure all processes are killed
+#
+
+killall -q sxhkd
+killall -q signal-desktop
+killall -q picom
+
+#
+# something
+#
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
+while pgrep -u $UID -x signal-desktop >/dev/null; do sleep 1; done
+
+#
+# AUTOSTART
+#
+
+bato &
+nitrogen --restore &
+picom --experimental-backend &
+$HOME/.config/paneldock/launch.sh &
+sxhkd &
+dunst -conf $HOME/.config/dunst/dunstrc &
+signal-desktop --start-in-tray --use-tray-icon --no-sandbox %U &
+xrdb .Xresources 
+
+
+#
+# bspwm
+# 
+
+bspc monitor -d 1 2 3 4 5 6 7 8  
+
+bspc config border_width        3
+bspc config window_gap          10
+
+bspc config normal_border_color "#9DA2D0"
+bspc config focused_border_color "#FB5B87"
+
+bspc config split_ratio          0.50
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+ 
+bspc rule -a kitty desktop='^1'  
+bspc rule -a google-chrome-stable desktop='^2'  
+bspc rule -a code desktop='^5'  
+bspc rule -a discord desktop='^4'
