@@ -1,0 +1,14 @@
+set linenumbers
+include /home/arin/tools/nanorc/*.nanorc
+
+set mouse
+set softwrap
+set tabstospaces
+set autoindent
+set tabsize 4
+
+set titlecolor black,magenta
+set numbercolor magenta
+set keycolor magenta
+set functioncolor white
+set statuscolor black,magenta
