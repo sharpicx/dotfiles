@@ -1,5 +1,5 @@
 set linenumbers
-include /home/arin/tools/nanorc/*.nanorc
+include $HOME/tools/nanorc/*.nanorc
 
 set mouse
 set softwrap
