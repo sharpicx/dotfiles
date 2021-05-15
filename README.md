@@ -51,7 +51,7 @@ follow this step again.
 # pacman-key --refresh-keys
 # pacman -Syyu
 ```
-or if that step didnt work. you can add this `Server = https://blackarch.org/` at the bottom to your mirrorlist file `/etc/pacman.d/mirrorlist`.
+or if that step didnt work. you can add this `Server = https://blackarch.org/` at the bottom of your mirrorlist file `/etc/pacman.d/mirrorlist`.
 after that, run this command `pacman -Syy`. done.
 
 To check the blackarch repo installed in your machine do this command
