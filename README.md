@@ -40,4 +40,4 @@ Here's the components of my setup.
 * r/unixporn
 * Linuxer Desktop Art
 * Dotfiles Indonesia
-* R
+* Aditya
