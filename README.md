@@ -31,8 +31,8 @@ Here's the components of my setup.
 |Video Player|[mpv]()|
 |Scrot Program|[flameshot]()|
 |Web Browser|[Google Chrome]()|
-|GTK Theme|Arc-Darkest-Frost|
-|GTK Icon|Arc|
+|GTK Theme|Arc-Darkest-Nord-Frost|
+|GTK Icon|Arc-Darkest-Frost-Numix|
 
 a small bit shit, i got blackarch repo installed in my machine. <br/>
 i will tell you how i did the installation.
