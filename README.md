@@ -35,9 +35,12 @@ Here's the components of my setup.
 |GTK Icon|Arc|
 
 ## Screenshot
+Soon.
 
 ## Credits
-* r/unixporn
-* Linuxer Desktop Art
-* Dotfiles Indonesia
-* Aditya
+* [r/unixporn](https://reddit.com/r/unixporn)
+* [Linuxer Desktop Art](https://www.facebook.com/groups/303997109715275)
+* [Dotfiles Indonesia](https://t.me/dotfiles_id)
+* [Aditya Shakya](https://github.com/adi1090x)
+* [Rizqi Nur Assyaufi](https://github.com/bandithijo) For Arch Installation.
+* [Harry Elrc](https://github.com/owl4ce) for inspiring me about linux rice at his blog.
