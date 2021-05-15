@@ -21,18 +21,18 @@ Here's the components of my setup.
 |Window Manager|[bspwm](https://github.com/baskerville/bspwm)|
 |Compositor|[picom](https://github.com/jonaburg/picom)|
 |Bar|[polybar](https://github.com/polybar/polybar)|
-|File Manager|[ranger]() & thunar|
-|Terminal|[kitty]()|
-|Shell|[zsh]()|
-|Program Launcher|[rofi]()|
-|Notification-Daemon|[dunst]()|
-|Code Editor|[nvim]() & [vscode]()|
-|Music Player|[cmus]()|
-|Video Player|[mpv]()|
-|Scrot Program|[flameshot]()|
-|Web Browser|[Google Chrome]()|
-|GTK Theme|Arc-Darkest-Nord-Frost|
-|GTK Icon|Arc-Darkest-Frost-Numix|
+|File Manager|[ranger](https://github.com/ranger/ranger) & thunar|
+|Terminal|[kitty](https://github.com/kovidgoyal/kitty)|
+|Shell|[zsh](https://github.com/zsh-users/zsh)|
+|Program Launcher|[rofi](https://github.com/davatorium/rofi)|
+|Notification-Daemon|[dunst](https://github.com/dunst-project/dunst)|
+|Code Editor|[nvim](https://github.com/neovim/neovim) & [vscode](https://archlinux.org/packages/community/x86_64/code/)|
+|Music Player|[cmus](https://github.com/cmus/cmus)|
+|Video Player|[mpv](https://github.com/mpv-player/mpv)|
+|Scrot Program|[flameshot](https://github.com/flameshot-org/flameshot)|
+|Web Browser|[Google Chrome](https://aur.archlinux.org/packages/google-chrome/)|
+|GTK Theme|[Arc-Darkest-Nord-Frost](https://www.pling.com/p/1319331/)|
+|GTK Icon|[Arc-Darkest-Frost-Numix-Flat](https://www.pling.com/p/1333968/startdownload?file_id=1574546516&file_name=Arc-Darkest-Frost-Numix-Flat_1.4.2.zip&file_type=application/zip&file_size=12915285)|
 
 a small bit shit, i got blackarch repo installed in my machine. <br/>
 i will tell you how i did the installation.
