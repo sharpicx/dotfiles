@@ -37,20 +37,27 @@ Here's the components of my setup.
 a small bit shit, i got blackarch repo installed in my machine. <br/>
 i will tell you how i did the installation.
 
-just follow this steps..
+just follow this step..
 ```sh
 $ curl -O https://blackarch.org/strap.sh
 $ chmod +x strap.sh
 $ ./strap.sh
 ```
-if you got some trouble like, keyring error or something like that, idk i was forget lol.
+if you got some trouble after installation like, keyring error or something like that, idk i was forget lol.
+follow this step again.
 ```
 # pacman-key --init
 # pacman-key --populate
 # pacman-key --refresh-keys
 # pacman -Syyu
 ```
-Done.
+or if that step didnt work. you can add this `Server = https://blackarch.org/` at the bottom to your mirrorlist file `/etc/pacman.d/mirrorlist`.
+after that, run this command `pacman -Syy`. done.
+
+To check the blackarch repo installed in your machine do this command
+```
+$ pacman -Sgg | grep blackarch
+```
 
 ## Screenshot
 Soon.
