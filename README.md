@@ -18,10 +18,10 @@ Here's the components of my setup.
 |Program|Name|
 |---|---|
 |GNU/Linux Distro|[Arch Linux](https://archlinux.org)|
-|Window Manager|[bspwm]()|
-|Compositor|[picom]()|
-|Bar|[polybar]()|
-|File Manager|[ranger]() & [thunar]()|
+|Window Manager|[bspwm](https://github.com/baskerville/bspwm)|
+|Compositor|[picom](https://github.com/jonaburg/picom)|
+|Bar|[polybar](https://github.com/polybar/polybar)|
+|File Manager|[ranger]() & thunar|
 |Terminal|[kitty]()|
 |Shell|[zsh]()|
 |Program Launcher|[rofi]()|
@@ -33,6 +33,24 @@ Here's the components of my setup.
 |Web Browser|[Google Chrome]()|
 |GTK Theme|Arc-Darkest-Frost|
 |GTK Icon|Arc|
+
+a small bit shit, i got blackarch repo installed in my machine. <br/>
+i will tell you how i did the installation.
+
+just follow this steps..
+```sh
+$ curl -O https://blackarch.org/strap.sh
+$ chmod +x strap.sh
+$ ./strap.sh
+```
+if you got some trouble like, keyring error or something like that, idk i was forget lol.
+```
+# pacman-key --init
+# pacman-key --populate
+# pacman-key --refresh-keys
+# pacman -Syyu
+```
+Done.
 
 ## Screenshot
 Soon.
