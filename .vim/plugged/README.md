@@ -9,5 +9,5 @@ there's the list of plugins i used.
 * [vim-airline-themes](https://github.com/vim-airline/vim-airline)
 * [vim-colorschemes](https://github.com/vim-airline/vim-airline-themes)
 * [vim-devicons](https://github.com/ryanoasis/vim-devicons)
-
+* [coc.nvim](https://github.com/neoclide/coc.nvim/) can be used for vim.
 yea it's not much.
