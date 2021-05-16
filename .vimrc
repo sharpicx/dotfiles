@@ -14,6 +14,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tek256/simple-dark'
 Plug 'flazz/vim-colorschemes'
 Plug 'Yggdroot/indentLine'
+Plug 'neoclide/coc.nvim'
 call plug#end()
 
 " General
