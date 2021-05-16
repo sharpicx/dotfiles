@@ -69,3 +69,5 @@ $ pacman -Sgg | grep blackarch
 * [Aditya Shakya](https://github.com/adi1090x) thanks for your great work!
 * [Rizqi Nur Assyaufi](https://github.com/bandithijo) for arch installation.
 * [Harry Elrc](https://github.com/owl4ce) for inspiring me about linux rice at his blog.
+
+available here: <http://dotshare.it/dots/8473/>
