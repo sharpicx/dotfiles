@@ -1,4 +1,5 @@
 " arin sharpicx @ sharpicx.wtf
+" not much coz im too new to vim.
 
 " Plugins
 call plug#begin()
