@@ -1,5 +1,5 @@
 set linenumbers
-include $HOME/tools/nanorc/*.nanorc
+include /usr/share/nano-syntax-highlighting/*.nanorc
 
 set mouse
 set softwrap
