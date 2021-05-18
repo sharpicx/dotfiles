@@ -26,7 +26,7 @@ Here's the components of my setup.
 |Shell|[zsh](https://github.com/zsh-users/zsh)|
 |Program Launcher|[rofi](https://github.com/davatorium/rofi)|
 |Notification-Daemon|[dunst](https://github.com/dunst-project/dunst)|
-|Code Editor|[nvim](https://github.com/neovim/neovim) & [vscode](https://archlinux.org/packages/community/x86_64/code/)|
+|Code Editor|[vim](https://github.com/neovim/neovim) & [vscode](https://archlinux.org/packages/community/x86_64/code/)|
 |Music Player|[cmus](https://github.com/cmus/cmus)|
 |Video Player|[mpv](https://github.com/mpv-player/mpv)|
 |Scrot Program|[flameshot](https://github.com/flameshot-org/flameshot)|
@@ -69,5 +69,3 @@ $ pacman -Sgg | grep blackarch
 * [Aditya Shakya](https://github.com/adi1090x) thanks for your great work!
 * [Rizqi Nur Assyaufi](https://github.com/bandithijo) for arch installation.
 * [Harry Elrc](https://github.com/owl4ce) for inspiring me about linux rice at his blog.
-
-available here: <http://dotshare.it/dots/8473/>
