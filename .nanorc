@@ -7,8 +7,8 @@ set tabstospaces
 set autoindent
 set tabsize 4
 
-set titlecolor black,magenta
-set numbercolor magenta
-set keycolor magenta
+set titlecolor brightblack,brightyellow
+set numbercolor brightyellow
+set keycolor brightyellow
 set functioncolor white
 set statuscolor black,magenta
