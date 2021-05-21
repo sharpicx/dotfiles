@@ -32,6 +32,10 @@ super + {x}
 super + n
 	networkmanager_dmenu
 
+# Bluetooth Manager
+super + b
+    rofi-bluetooth
+
 # ---------------------------
 # applications
 # ---------------------------
@@ -41,7 +45,7 @@ alt + {r,t,v}
 	{bspc rule -a \* -o state=floating && kitty -e ranger,bspc rule -a \* -o state=tiled && thunar,chrome}
 
 Print
-	flameshot full -c -p ~/Gambar/scrot  
+	flameshot full -c -p ~/Pictures/screenshots
 
 # --------------
 # Audio
@@ -175,4 +179,3 @@ super + alt + shift + {Left,Down,Up,Right}
 # move a floating window
 super + ctrl +{Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
-
