@@ -19,7 +19,7 @@ Here's the components of my setup.
 |---|---|
 |GNU/Linux Distro|[Arch Linux](https://archlinux.org)|
 |Window Manager|[bspwm](https://github.com/baskerville/bspwm)|
-|Compositor|[picom (fork)](https://github.com/jonaburg/picom)|
+|Compositor|[picom](https://github.com/jonaburg/picom)(fork)|
 |Bar|[polybar](https://github.com/polybar/polybar)|
 |File Manager|[ranger](https://github.com/ranger/ranger) & thunar|
 |Terminal|[kitty](https://github.com/kovidgoyal/kitty)|
