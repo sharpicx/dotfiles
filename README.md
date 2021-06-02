@@ -60,7 +60,7 @@ $ pacman -Sgg | grep blackarch
 ```
 
 ## Screenshot
-<img id="scrot" src="2021-05-16_19-19.png">
+<img id="scrot" src="/screenshot/mylove.png">
 
 ## Credits
 * [r/unixporn](https://reddit.com/r/unixporn)
