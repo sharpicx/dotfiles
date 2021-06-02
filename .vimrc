@@ -15,6 +15,7 @@ Plug 'tek256/simple-dark'
 Plug 'flazz/vim-colorschemes'
 Plug 'Yggdroot/indentLine'
 Plug 'neoclide/coc.nvim'
+Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 call plug#end()
 
 " General
@@ -32,7 +33,7 @@ set noshowmode
 set tabstop=2
 
 " Colors, Font, Syntax
-colorscheme yeller
+colorscheme slate2
 filetype indent on
 set encoding=UTF-8
 syntax enable
@@ -42,7 +43,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Airline.
-let g:airline_theme='onedark'
+let g:airline_theme='supernova'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#branch#enabled = 1
@@ -55,6 +56,8 @@ let g:indentLine_defaultGroup = 'SpecialKey'
 let g:indentLine_color_term = 230
 let g:indentLine_char_list = '|'
 
+" HexoKinase
+let g:Hexokinase_highlighters = ['sign_column']
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
