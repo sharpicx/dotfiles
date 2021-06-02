@@ -34,18 +34,20 @@ super + n
 
 # Bluetooth Manager
 super + b
-    rofi-bluetooth
+    $HOME/.config/rofi/bluetooth.sh
 
 # ---------------------------
 # applications
 # ---------------------------
 
-# ranger & thunar & vivaldi
+# ranger & thunar & chrome
 alt + {r,t,v}
 	{bspc rule -a \* -o state=floating && kitty -e ranger,bspc rule -a \* -o state=tiled && thunar,chrome}
 
 Print
 	flameshot full -c -p ~/Pictures/screenshots
+super + period
+    flameshot gui
 
 # --------------
 # Audio
@@ -69,11 +71,11 @@ XF86AudioMute
 
 # nambahin 5x 
 XF86MonBrightnessUp
-	brightnessctl s +10%
+	brightnessctl s +5%
 
 # nurunin 5x
 XF86MonBrightnessDown
-	brightnessctl s 10%-
+	brightnessctl s 5%-
 
 super + Escape
 	pkill -USR1 -x sxhkd
