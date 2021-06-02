@@ -2,6 +2,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/arin/.oh-my-zsh"
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
 ZSH_THEME="gentoo"
 
 # Set list of themes to pick from when loading at random
@@ -88,6 +90,6 @@ export ARCHFLAGS="-arch x86_64"
 # Aliasses
 alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
-alias neofetch="neofetch --kitty ~/Unduhan/arch.png --size 200px"
+#alias neofetch="neofetch --kitty ~/Pictures/arin.jpg --size 170px"
 
 # Masih baru yahaha
