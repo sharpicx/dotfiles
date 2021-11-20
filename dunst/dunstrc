@@ -1,20 +1,24 @@
 [global]
 monitor = 0    
 follow = mouse
-geometry = "300x40-10+40"
+width = 300 
+height = 300
+offset = 10x37 
+origin = top-right
+notification-limit = 5
 indicate_hidden = yes    
 shrink = no
-transparency = 0.85
+transparency = 0.80
 notification_height = 0
 separator_height = 3
-padding = 12.5
+padding = 8
 horizontal_padding = 8    
-frame_width = 3
-frame_color = "#FB5B87"
+frame_width = 2
+frame_color = "#5163D0"
 separator_color = frame
 sort = yes
 idle_threshold = 120
-font = Roboto Mono 9     
+font = JetBrains Mono 9 
 line_height = 0
 markup = full
 format = "<b>%s</b>\n%b"
@@ -57,7 +61,7 @@ vertical_alignment = center
     max_icon_size = 32
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/Arc-Darkest-Frost-Numix-Flat/16/status:/usr/share/icons/Arc-Darkest-Frost-Numix-Flat/16/devices:/usr/share/icons/Arc-Darkest-Frost-Numix-Flat/16/apps
+    icon_path = /home/arin/.local/share/icons/Arc-Darkest-Frost-Numix-Flat/32/status:/home/arin/.local/share/icons/Arc-Darkest-Frost-Numix-Flat/32/devices:/home/arin/.local/share/icons/Arc-Darkest-Frost-Numix-Flat/32/apps:/home/arin/.local/share/icons/Arc-Darkest-Frost-Numix-Flat/32/actions
 
     ### History ###
 
@@ -174,24 +178,24 @@ vertical_alignment = center
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#010E13"
-    foreground = "#B9A1C5"
-    timeout = 10
+    background = "#0C0016"
+    foreground = "#E6A8CA"
+    timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
-    icon = /usr/share/icons/Arc
+    # icon = $usr/share/icons/Arc
 
 [urgency_normal]
-    background = "#010E13"
-    foreground = "#B9A1C5"
-    timeout = 10
+    background = "#0C0016"
+    foreground = "#E6A8CA"
+    timeout = 5
     # Icon for notifications with normal urgency, uncomment to enable
-    icon = /usr/share/icons/Arc
+    #icon = /usr/share/icons/Arc
 
 [urgency_critical]
-    background = "#010E13"
+    background = "#0C0016"
     foreground = "#D18400"
-    frame_color = "#FB5B87"
-    timeout = 0
+    frame_color = "#3957BF"
+    timeout = 5
     # Icon for notifications with critical urgency, uncomment to enable
     #icon = /usr/share/icons/Lyra-red
 
