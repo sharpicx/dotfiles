@@ -1,4 +1,4 @@
-karena saya malas untuk mengunggah semua directory di dalam folder plugged. ya walaupun folder dan directory itu sama. saya akan memberikan list-nya disini aja.
+karena saya malas untuk mengunggah semua directory di dalam folder plugged. ya walaupun folder dan directory itu sama. saya akan memberikan list-nya disini aja. ini btw, semua yang saya pake ya.
 
 ## All of the Plugins.
 * ### [NERDTree](https://github.com/preservim/nerdtree)
