@@ -42,7 +42,7 @@ This dotfiles based in Indonesia.
 The answer is: because im getting comfortable with it, that's simple. 
 
 ## Credits
-* [r/unixporn](https://reddit.com/r/unixporn) nice dotfiles have provided in the community.
+* [r/unixporn](https://reddit.com/r/unixporn) thanks for the many dotfiles provided in the community.
 * [Aditya Shakya](https://github.com/adi1090x) thanks for your great work!
 * [Rizqi Nur Assyaufi](https://github.com/bandithijo) for the arch installation.
 * [Harry Elrc](https://github.com/owl4ce) for inspiring me about linux ricing at his blog.
