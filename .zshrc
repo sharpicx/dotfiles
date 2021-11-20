@@ -1,9 +1,17 @@
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"
+export R2DEC_HOME=~/.local/share/radare2/r2pm/git/r2dec/p
 
+#source ~/.local/share/fonts/i_linux.sh
 # Path to your oh-my-zsh installation.
 export ZSH="/home/arin/.oh-my-zsh"
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="gentoo"
 
 # Set list of themes to pick from when loading at random
@@ -35,7 +43,7 @@ CASE_SENSITIVE="true"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-DISABLE_AUTO_TITLE="true"
+# DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
@@ -66,7 +74,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -85,11 +93,21 @@ source $ZSH/oh-my-zsh.sh
 # fi
 
 # Compilation flags
-export ARCHFLAGS="-arch x86_64"
+# export ARCHFLAGS="-arch x86_64"
 
-# Aliasses
-alias zshconfig="nano ~/.zshrc"
-alias ohmyzsh="nano ~/.oh-my-zsh"
-#alias neofetch="neofetch --kitty ~/Pictures/arin.jpg --size 170px"
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+alias zshconfig="vim ~/.zshrc"
+alias downloadmp3="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
+alias neofetch="neofetch --kitty ~/Pictures/arch.png"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+#fpath=($fpath "/home/arin/.zfunctions")
 
-# Masih baru yahaha
+# Set Spaceship ZSH as a prompt
+source /home/arin/tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/arin/tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/arin/tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
