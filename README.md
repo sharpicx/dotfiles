@@ -33,8 +33,10 @@ This dotfiles based in **Arch Linux**
 
 ## Scrot
 ![gambar](https://i.postimg.cc/X3yV2rWf/image.png)<br/>
+
 ![skalasuci](https://i.postimg.cc/SQL3BFDh/2021-11-20-21-09-1.png)<br/>
-![gambar3](https://i.postimg.cc/02QncL4Z/2021-11-20-21-09-2.png)<br/>
+
+![perdana](https://i.postimg.cc/02QncL4Z/2021-11-20-21-09-2.png)<br/>
 
 * NB: why the vim colors above are different?<br/>
 The answer is: because im getting comfortable with it, that's simple. 
