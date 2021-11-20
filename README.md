@@ -8,9 +8,8 @@
 -- sharpicx personal dotfiles --
 
 ```
-
 ## Prologue
-This repo is my personal dofiles configuration of all the programs i used on Arch such as daily. and i decided to make the repo public for now so anyone can access it easily and try it to get how impressive it is. this rice is too comfortable and stable as first creature created so you can try it without any bugs or problems found on it, so chill out.
+This dotfiles based in **Arch Linux** 
 
 ## Components
 |Program|Name|
