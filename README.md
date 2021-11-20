@@ -9,7 +9,7 @@
 
 ```
 ## Prologue
-This dotfiles based in **Arch Linux** 
+This dotfiles based in Indonesia. 
 
 ## Components
 |Program|Name|
@@ -34,9 +34,9 @@ This dotfiles based in **Arch Linux**
 ## Scrot
 ![gambar](https://i.postimg.cc/X3yV2rWf/image.png)
 
-![skalasuci](https://i.postimg.cc/SQL3BFDh/2021-11-20-21-09-1.png)
+![skalasuci](https://imgshare.io/images/2021/11/20/2021-11-20_21-09_1.png)
 
-![perdana](https://i.postimg.cc/02QncL4Z/2021-11-20-21-09-2.png)
+![perdana](https://imgshare.io/images/2021/11/20/2021-11-20_21-09_2.png)
 
 * NB: why the vim colors above are different?<br/>
 The answer is: because im getting comfortable with it, that's simple. 
