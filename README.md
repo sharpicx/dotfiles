@@ -31,8 +31,13 @@ This dotfiles based in **Arch Linux**
 |GTK Theme|[My Own Theme :3](https://github.com/sharpicx/dotfiles/tree/main/.theme)|
 |GTK Icon|[Tela-icon-theme](https://www.pling.com/p/1279924)|
 
-## Screenshot
-<img id="scrot" src="https://github.com/sharpicx/dotfiles/blob/main/screenshots/mylove.png">
+## Scrot
+![gambar](https://i.postimg.cc/X3yV2rWf/image.png)<br/>
+![gambar2](https://i.postimg.cc/SQL3BFDh/2021-11-20-21-09-1.png)<br/>
+![gambar3](https://i.postimg.cc/02QncL4Z/2021-11-20-21-09-2.png)<br/>
+
+* NB: why the vim colors above are different?
+The answer is: because im getting comfortable with it, that's simple. 
 
 ## Credits
 * [r/unixporn](https://reddit.com/r/unixporn)
