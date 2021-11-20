@@ -28,33 +28,8 @@ This dotfiles based in **Arch Linux**
 |Video Player|[mpv](https://github.com/mpv-player/mpv)|
 |Scrot Program|[flameshot](https://github.com/flameshot-org/flameshot)|
 |Web Browser|[Google Chrome](https://aur.archlinux.org/packages/google-chrome/)|
-|GTK Theme|[My Own Theme :3]()|
+|GTK Theme|[My Own Theme :3](https://github.com/sharpicx/dotfiles/tree/main/.theme)|
 |GTK Icon|[Tela-icon-theme](https://www.pling.com/p/1279924)|
-
-a small bit shit, i got blackarch repo installed in my machine. <br/>
-i will tell you how i did the installation.
-
-just follow this step..
-```sh
-$ curl -O https://blackarch.org/strap.sh
-$ chmod +x strap.sh
-$ ./strap.sh
-```
-if you got some trouble after installation like, keyring error or something like that, idk i was forget lol.
-follow this step again.
-```
-# pacman-key --init
-# pacman-key --populate
-# pacman-key --refresh-keys
-# pacman -Syyu
-```
-or if that step didnt work. you can add this `Server = https://blackarch.org/` at the bottom of your mirrorlist file `/etc/pacman.d/mirrorlist`.
-after that, run this command `pacman -Syy`. done.
-
-To check the blackarch repo installed in your machine do this command
-```
-$ pacman -Sgg | grep blackarch
-```
 
 ## Screenshot
 <img id="scrot" src="https://github.com/sharpicx/dotfiles/blob/main/screenshots/mylove.png">
