@@ -11,7 +11,19 @@
 ## Prologue
 This dotfiles is based in Indonesia and made by me. I did this because i need to backup all of my dotshits to keep off reconfiguration. I don't want to get crash or something which is where i have to do is setting up the configuration again. i just need to download the dots from this repo and store it step by step like a pro. and feel free for ya to use it. idfc about copy paste or wot. because as you need to know, in this world everything is about ATM (Amati Tiru Modifikasi) it stands for (In English mode) Observe, Copy, Modification.
 
-## Short Story.
+## Some trouble
+* ### Display Manager
+  This is just reminder for me about this issue: <https://github.com/manilarome/lightdm-webkit2-theme-glorious/issues/32>.
+
+* ### BlackArch Repo
+  All you have to do is
+  ```bash
+  # rm -rf /etc/pacman.d/gnupg
+  # pacman --init
+  # pacman --populate archlinux blackarch
+  # pacman --update --keyserver keyserver.ubuntu.com
+  ```
+* I will add more later
 
 ## Components
 |Program|Name|
