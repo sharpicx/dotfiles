@@ -20,4 +20,4 @@ karena saya malas untuk mengunggah semua directory di dalam folder plugged. ya w
 * ### [vim-transparent](https://github.com/tribela/vim-transparent)
   ini kalo lau pake colorscheme yang backgroundnya masih ada. bisa dihilangkan dengan plugin yang satu ini.
   
-  thanks in advance.
+## thanks in advance.
