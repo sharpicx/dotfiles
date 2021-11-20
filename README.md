@@ -39,7 +39,7 @@ This dotfiles based in Indonesia.
 ![perdana](https://imgshare.io/images/2021/11/20/2021-11-20_21-09_2.png)
 
 * NB: why the vim colors above are different?<br/>
-The answer is: because im getting comfortable with it, that's simple. 
+The answer is: because i got stuck when i tried to figured out the right theme.
 
 ## Credits
 * [r/unixporn](https://reddit.com/r/unixporn) thanks for the many dotfiles provided in the community.
