@@ -19,7 +19,7 @@ This repo is my personal dofiles configuration of all the programs i used on Arc
 |Window Manager|[bspwm](https://github.com/baskerville/bspwm)|
 |Compositor|[picom](https://github.com/jonaburg/picom)(fork)|
 |Bar|[polybar](https://github.com/polybar/polybar)|
-|File Manager|[ranger](https://github.com/ranger/ranger) & thunar|
+|File Manager|[ranger](https://github.com/ranger/ranger) & [thunar](https://archlinux.org/packages/?name=thunar)|
 |Terminal|[kitty](https://github.com/kovidgoyal/kitty)|
 |Shell|[zsh](https://github.com/zsh-users/zsh)|
 |Program Launcher|[rofi](https://github.com/davatorium/rofi)|
