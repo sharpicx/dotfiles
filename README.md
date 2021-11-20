@@ -42,9 +42,7 @@ This dotfiles based in **Arch Linux**
 The answer is: because im getting comfortable with it, that's simple. 
 
 ## Credits
-* [r/unixporn](https://reddit.com/r/unixporn)
-* [Linuxer Desktop Art](https://www.facebook.com/groups/303997109715275)
-* [Dotfiles Indonesia](https://t.me/dotfiles_id)
+* [r/unixporn](https://reddit.com/r/unixporn) nice dotfiles have provided in the community.
 * [Aditya Shakya](https://github.com/adi1090x) thanks for your great work!
-* [Rizqi Nur Assyaufi](https://github.com/bandithijo) for arch installation.
-* [Harry Elrc](https://github.com/owl4ce) for inspiring me about linux rice at his blog.
+* [Rizqi Nur Assyaufi](https://github.com/bandithijo) for the arch installation.
+* [Harry Elrc](https://github.com/owl4ce) for inspiring me about linux ricing at his blog.
