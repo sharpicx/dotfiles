@@ -42,7 +42,7 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 The answer is: because i got stuck when i was trying to figure out which one was comfortable to use :).
 
 ## Credits
-* [r/unixporn](https://reddit.com/r/unixporn) thanks for the many dotfiles provided in the community.
-* [Aditya Shakya](https://github.com/adi1090x) thanks for your great work!
-* [Rizqi Nur Assyaufi](https://github.com/bandithijo) for the arch installation.
-* [Harry Elrc](https://github.com/owl4ce) for inspiring me about linux ricing at his blog.
+* [r/unixporn](https://reddit.com/r/unixporn) for the many dotfiles provided in the community.
+* [Aditya Shakya](https://github.com/adi1090x) for your great work!
+* [Rizqi Nur Assyaufi](https://github.com/bandithijo) teach me for the arch installation.
+* [Harry Elrc](https://github.com/owl4ce) inspiring me up about linux ricing at his blog.
