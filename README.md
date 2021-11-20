@@ -11,11 +11,14 @@
 ## Prologue
 This dotfiles is based in Indonesia and made by me. I did this because i need to backup all of my dotshits to keep off reconfiguration. I don't want to get crash or something which is where i have to do is setting up the configuration again. i just need to download the dots from this repo and store it step by step like a pro. and feel free for ya to use it. idfc about copy paste or wot. because as you need to know, in this world everything is about ATM (Amati Tiru Modifikasi) it stands for (In English mode) Observe, Copy, Modification.
 
+## Short Story.
+
 ## Components
 |Program|Name|
 |---|---|
 |GNU/Linux Distro|[Arch Linux](https://archlinux.org)|
 |Window Manager|[bspwm](https://github.com/baskerville/bspwm)|
+|Display Manager|[LightDM](https://archlinux.org/packages/?name=lightdm) & lightdm-webkit2-greeter|
 |Compositor|[picom](https://github.com/jonaburg/picom)(fork)|
 |Bar|[polybar](https://github.com/polybar/polybar)|
 |File Manager|[ranger](https://github.com/ranger/ranger) & [thunar](https://archlinux.org/packages/?name=thunar)|
