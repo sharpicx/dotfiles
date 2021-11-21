@@ -13,7 +13,7 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 
 ## Some trouble
 * ### Display Manager
-  This is just reminder-like for me about this issue: <https://github.com/manilarome/lightdm-webkit2-theme-glorious/issues/32>.
+  This is just reminder-like for me about this small issue: <https://github.com/manilarome/lightdm-webkit2-theme-glorious/issues/32>.
 
 * ### BlackArch Repo
   All you have to do is
