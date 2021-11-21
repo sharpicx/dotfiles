@@ -19,5 +19,9 @@ karena saya malas untuk mengunggah semua directory di dalam folder plugged. ya w
   tau sendiri lah ya buat apa, kaya warna untuk nerdtree.
 * ### [vim-transparent](https://github.com/tribela/vim-transparent)
   ini kalo lau pake colorscheme yang backgroundnya masih ada. bisa dihilangkan dengan plugin yang satu ini.
+* ### [emmet-vim](https://github.com/mattn/emmet-vim)
+  karna saya ingin menjadi web developer, jadi saya memerlukan ini untuk html/css. lebih mempermudah untuk memberikan tag.
+* ### [coc.nvim](https://github.com/neoclide/coc.nvim)
+  ini kaya kaya code suggestion gitu, kurang tau namanya tapi lebih kaya IDE-like aja sih.
   
 ## thanks in advance.
