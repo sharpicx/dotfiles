@@ -1,6 +1,6 @@
 karena saya malas untuk mengunggah semua directory di dalam folder plugged. ya walaupun folder dan directory itu sama. saya akan memberikan list-nya disini aja. ini btw, semua yang saya pake ya.
 
-## All of the Plugins.
+## All of my Plugins.
 * ### [NERDTree](https://github.com/preservim/nerdtree)
   system explorer. bisa nyari semua directory secara kompleks. Ya lebih tepatnya kaya IDE/Code Editor gitu.
 * ### [vim-syntastic](https://github.com/vim-syntastic/syntastic)
