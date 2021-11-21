@@ -23,7 +23,9 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
   # pacman --populate archlinux blackarch
   # pacman --update --keyserver keyserver.ubuntu.com
   ```
-* I will add more later
+* If you wanna surving free and maybe watching a porn on the internet, just replace [this one](https://github.com/bebasid/bebasid/blob/master/releases/hosts/) into your hosts file, that's it.
+
+* i will add more... 
 
 ## Components
 |Program|Name|
