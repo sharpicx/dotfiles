@@ -40,13 +40,13 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 |Shell|[zsh](https://github.com/zsh-users/zsh)|
 |Program Launcher|[rofi](https://github.com/davatorium/rofi)|
 |Notification-Daemon|[dunst](https://github.com/dunst-project/dunst)|
-|Code Editor|[vim](https://github.com/vim/vim)|
+|Code Editor|[vim](https://github.com/vim/vim) & [neovim](https://github.com/neovim/neovim)|
 |Music Player|[spotify](https://github.com/spicetify/)|
 |Video Player|[mpv](https://github.com/mpv-player/mpv)|
 |Scrot Program|[flameshot](https://github.com/flameshot-org/flameshot) & [maim](https://github.com/naelstrof/maim)|
-|[imagemagick](https://github.com/ImageMagick/ImageMagick)|
+||[imagemagick](https://github.com/ImageMagick/ImageMagick)|
 |Web Browser|[Google Chrome](https://aur.archlinux.org/packages/google-chrome/)|
-|GTK Theme|[My Own Theme :3](https://github.com/sharpicx/dotfiles/tree/main/.theme)|
+|GTK Theme|[Skueos GTK](https://github.com/daniruiz/skeuos-gtk)|
 |GTK Icon|[Tela-icon-theme](https://www.pling.com/p/1279924)|
 
 ## Scrot
