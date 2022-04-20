@@ -9,23 +9,23 @@
 
 ```
 ## Prologue
-This dotfiles is based in Indonesia and made by me. I did this because i need to backup all of my dotshits to keep off reconfiguration. I don't want to get crash or something which is where i have to do is setting up the configuration again. i just need to download the dots from this repo and store it step by step like a pro. and feel free for ya to use it. idfc about copy paste or wot. because as you need to know, in this world everything is about ATM (Amati Tiru Modifikasi) it stands for (In English mode) Observe, Copy, Modification.
+This dotfiles is based in Indonesia and made by me. I did this because i need to backup all of my dotshits to keep off reconfiguration. I don't want to get crash or something which is where i have to do is setting up the configuration again. i just need to download the dots from this repo and store it step by step like a pro. and feel free for you to use it. idfc about copy paste or wot. because as you need to know, in this world everything is about ATM (Amati Tiru Modifikasi) it stands for (In English mode) Observe, Copy, Modification.
 
 ## Some trouble
 * ### Display Manager
-  This is just reminder-like for me about this small issue: <https://github.com/manilarome/lightdm-webkit2-theme-glorious/issues/32>.
+  This one is just reminder-like for me, about a small issue: <https://github.com/manilarome/lightdm-webkit2-theme-glorious/issues/32>.
 
 * ### BlackArch Repo
   All you have to do is
   ```bash
-  # rm -rf /etc/pacman.d/gnupg
-  # pacman --init
-  # pacman --populate archlinux blackarch
-  # pacman --update --keyserver keyserver.ubuntu.com
+  ~# rm -rf /etc/pacman.d/gnupg
+  ~# pacman --init
+  ~# pacman --populate archlinux blackarch
+  ~# pacman --update --keyserver keyserver.ubuntu.com
   ```
-* If you wanna surving free and maybe watching a porn on the internet, just replace [this one](https://github.com/bebasid/bebasid/blob/master/releases/hosts/) into your hosts file, that's it.
+* If you wanna take a internet-freeing aka surving free and maybe watch a porn on the internet or something like illegal accesses, just replace [this file](https://github.com/bebasid/bebasid/blob/master/releases/hosts/) into your own, that's all.
 
-* i will add more... 
+* i will add more soon... if i had problem on my own.
 
 ## Components
 |Program|Name|
@@ -56,11 +56,12 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 
 ![perdana](https://imgshare.io/images/2021/11/20/2021-11-20_21-09_2.png)
 
-* NB: why the vim colors above are different?<br/>
-The answer is: because i got stuck when i was trying to figure out which one was comfortable to use :).
-
 ## Credits
-* [r/unixporn](https://reddit.com/r/unixporn) for the many dotfiles provided in the community.
-* [Aditya Shakya](https://github.com/adi1090x) for your great work!
-* [Rizqi Nur Assyaufi](https://github.com/bandithijo) teach me for the arch installation.
-* [Harry Elrc](https://github.com/owl4ce) inspiring me up about linux ricing at his blog.
+* [r/unixporn](https://reddit.com/r/unixporn) 
+  thanks for the dotfiles provided in the community.
+* [Aditya Shakya](https://github.com/adi1090x) 
+  thanks for your great work!
+* [Rizqi Nur Assyaufi](https://github.com/bandithijo) 
+  thanks for teaching me for the arch installation, now i already have sharpened my knowledge because of your article, that's cool!
+* [Harry Elrc](https://github.com/owl4ce) 
+  inspiring me up about how linux ricing looks like at his blog, even tho the start chapter was a lil bit tricky!
