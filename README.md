@@ -15,7 +15,7 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 * ### Display Manager
   This one is just reminder-like for me, about a small issue: <https://github.com/manilarome/lightdm-webkit2-theme-glorious/issues/32>.
 
-* ### BlackArch Repo
+* ### Repository Error
   All you have to do is
   ```bash
   ~# rm -rf /etc/pacman.d/gnupg
@@ -29,6 +29,7 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
    * <https://moys.gov.iq/upload/common/Programming_in_Lua%2C_4th_ed._%282017%29_.pdf>
    * <https://link.springer.com/content/pdf/bbm%3A978-1-4020-9920-5%2F1.pdf>
    * <https://xp-soaring.github.io/xplane/library/FlyWithLua_Manual_en.pdf>
+   * <https://github.com/LewisJEllis/awesome-lua>
 
 * i will add more soon... if i had problem on my own.
 
