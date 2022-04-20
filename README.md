@@ -62,6 +62,6 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 * [Aditya Shakya](https://github.com/adi1090x) 
   thanks for your great work!
 * [Rizqi Nur Assyaufi](https://github.com/bandithijo) 
-  thanks for teaching me for the arch installation, now i already have sharpened my knowledge because of your article, that's cool!
+  thanks for teaching me about the arch installation, now i already have sharpened my knowledge because of your article, that's cool!
 * [Harry Elrc](https://github.com/owl4ce) 
   inspiring me up about how linux ricing looks like at his blog, even tho the start chapter was a lil bit tricky!
