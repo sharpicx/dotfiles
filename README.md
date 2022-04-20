@@ -32,18 +32,19 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 |---|---|
 |GNU/Linux Distro|[Arch Linux](https://archlinux.org)|
 |Window Manager|[bspwm](https://github.com/baskerville/bspwm)|
-|Display Manager|[LightDM](https://archlinux.org/packages/?name=lightdm) & lightdm-webkit2-greeter|
+|Display Manager|[LightDM](https://archlinux.org/packages/?name=lightdm)|
 |Compositor|[picom](https://github.com/jonaburg/picom)(fork)|
 |Bar|[polybar](https://github.com/polybar/polybar)|
-|File Manager|[ranger](https://github.com/ranger/ranger) & [thunar](https://archlinux.org/packages/?name=thunar)|
+|File Manager|[ranger](https://github.com/ranger/ranger)|
 |Terminal|[kitty](https://github.com/kovidgoyal/kitty)|
 |Shell|[zsh](https://github.com/zsh-users/zsh)|
 |Program Launcher|[rofi](https://github.com/davatorium/rofi)|
 |Notification-Daemon|[dunst](https://github.com/dunst-project/dunst)|
 |Code Editor|[vim](https://github.com/vim/vim)|
-|Music Player|[cmus](https://github.com/cmus/cmus)|
+|Music Player|[spotify](https://github.com/spicetify/)|
 |Video Player|[mpv](https://github.com/mpv-player/mpv)|
-|Scrot Program|[flameshot](https://github.com/flameshot-org/flameshot)|
+|Scrot Program|[flameshot](https://github.com/flameshot-org/flameshot) & [maim](https://github.com/naelstrof/maim)|
+|[imagemagick](https://github.com/ImageMagick/ImageMagick)|
 |Web Browser|[Google Chrome](https://aur.archlinux.org/packages/google-chrome/)|
 |GTK Theme|[My Own Theme :3](https://github.com/sharpicx/dotfiles/tree/main/.theme)|
 |GTK Icon|[Tela-icon-theme](https://www.pling.com/p/1279924)|
