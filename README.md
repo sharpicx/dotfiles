@@ -15,6 +15,7 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 |Program|Name|
 |---|---|
 |GNU/Linux Distro|[Arch Linux](https://archlinux.org)|
+|init system|[systemd](https://systemd.io/)|
 |Window Manager|[bspwm](https://github.com/baskerville/bspwm)|
 |Network|[networkmanager](https://archlinux.org/packages/extra/x86_64/networkmanager/)|
 ||[iwd](https://archlinux.org/packages/?name=iwd)|
