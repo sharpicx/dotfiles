@@ -25,6 +25,11 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
   ```
 * If you wanna take a internet-freeing aka surving free and maybe watch a porn on the internet or something like illegal accesses, just replace [this file](https://github.com/bebasid/bebasid/blob/master/releases/hosts/) into your own, that's all.
 
+* about how i configured neovim, first of all u need to understand yourself lua.
+   * <https://moys.gov.iq/upload/common/Programming_in_Lua%2C_4th_ed._%282017%29_.pdf>
+   * <https://link.springer.com/content/pdf/bbm%3A978-1-4020-9920-5%2F1.pdf>
+   * <https://xp-soaring.github.io/xplane/library/FlyWithLua_Manual_en.pdf>
+
 * i will add more soon... if i had problem on my own.
 
 ## Components
@@ -37,6 +42,7 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 |Bar|[polybar](https://github.com/polybar/polybar)|
 |File Manager|[ranger](https://github.com/ranger/ranger)|
 |Terminal|[kitty](https://github.com/kovidgoyal/kitty)|
+|Terminal Multiplexer|[tmux](https://github.com/tmux/tmux)|
 |Shell|[zsh](https://github.com/zsh-users/zsh)|
 |Program Launcher|[rofi](https://github.com/davatorium/rofi)|
 |Notification-Daemon|[dunst](https://github.com/dunst-project/dunst)|
