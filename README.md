@@ -12,6 +12,7 @@
 This dotfiles is based in Indonesia and made by me. I did this because i need to backup all of my dotshits to keep off reconfiguration. I don't wanna get crash or something error that should be fixed which was where i have to do is setting up the configuration again. and tbh, the easily way to say is i just need to download the dots from this repo and store it myself step by step like a pro. and feel free for you to use it. idfc about copy paste or wot. because as you need to know, in this world everything is about ATM (Amati Tiru Modifikasi) it stands for (In English mode) Observe, Copy, Modification. dont need to say much, let's get in.
 
 #  Components
+
 |Program|Name|
 |---|---|
 |GNU/Linux Distro|[Arch Linux](https://archlinux.org)|
@@ -46,6 +47,7 @@ This dotfiles is based in Indonesia and made by me. I did this because i need to
 
 
 # Troubles
+
 this part explicates about how i already completed solving some trouble issues when i'm trying to reconfig or taking a new configuration on some irking program, so freaking sense.
 
 * ## Display Manager
@@ -75,11 +77,7 @@ this part explicates about how i already completed solving some trouble issues w
 * i will add more soon... if i had problem on my own.
 
 ## Scrot
-![gambar](https://i.postimg.cc/X3yV2rWf/image.png)
-
-![skalasuci](https://imgshare.io/images/2021/11/20/2021-11-20_21-09_1.png)
-
-![perdana](https://imgshare.io/images/2021/11/20/2021-11-20_21-09_2.png)
+![gambar](https://i.ibb.co/fpyXVFc/26-04-22-05-29.png)
 
 ## Credits
 * [r/unixporn](https://reddit.com/r/unixporn) 
