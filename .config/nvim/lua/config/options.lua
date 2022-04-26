@@ -1,0 +1,51 @@
+local options = {
+    background = "dark",
+    backspace = "indent,eol,start",
+    backup = false,
+    -- clipboard = "unnamedplus",
+    cmdheight = 1,
+    -- colorcolumn = "80",
+    completeopt = { "menu", "menuone", "noselect" },
+    conceallevel = 0,
+    cursorline = true,
+    encoding = "UTF-8",
+    errorbells = false,
+    expandtab = true,
+    fileencoding = "UTF-8",
+    -- guifont = "monospace:h17",
+    hidden = true,
+    hlsearch = true,
+    ignorecase = true,
+    incsearch = true,
+    mouse = "a",
+    number = true,
+    -- numberwidth = 1,
+    omnifunc = "syntaxcomplete#Complete",
+    pumheight = 10,
+    relativenumber = false,
+    ruler = true,
+    scrolloff = 8,
+    shiftwidth = 4,
+    showmode = false,
+    -- showtabline = 4,
+    sidescrolloff = 8,
+    signcolumn = "yes",
+    smartcase = true,
+    smartindent = true,
+    splitbelow = true,
+    splitright = true,
+    swapfile = false,
+    tabstop = 4,
+    termguicolors = true,
+    undofile = false,
+    updatetime = 300,
+    wrap = false,
+    writebackup = false,
+}
+
+for k, v in pairs(options) do
+    vim.opt[k] = v
+end
+
+vim.opt.shortmess:append("c")
+vim.g.vim_json_warnings = false
