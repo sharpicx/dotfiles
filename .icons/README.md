@@ -6,3 +6,5 @@
 |4|Tela-dark|
 |5|Tela-pink-dark|
 |6|Zafiro-Icons-Dark-Blue-f|
+
+i forget all of the icons where i downloaded at, later i'll find out the sites.
