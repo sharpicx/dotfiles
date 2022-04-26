@@ -75,6 +75,7 @@ this part explicates about how i already completed solving some trouble issues w
    * ### Github Copilot
       soon.
 
+* <https://github.com/archcraft-os/archcraft-themes>
 * i will add more soon... if i had problem on my own.
 
 ## Scrot
