@@ -1,6 +1,8 @@
 -- Copyright (c) 2020-2021 shadmansaleh
 -- MIT license, see LICENSE for more details.
 -- stylua: ignore
+-- modified by sharpicx.
+
 local colors = {
     color3   = '#02020E',
     color6   = '#a1aab8',
