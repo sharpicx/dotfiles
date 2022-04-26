@@ -26,6 +26,7 @@ This repository is based in Indonesia and made by me. I did this because i need 
 |Compositor|[picom](https://github.com/jonaburg/picom)-fork|
 |Bar|[polybar](https://github.com/polybar/polybar)|
 |File Manager|[ranger](https://github.com/ranger/ranger)|
+||[thunar](https://archlinux.org/packages/extra/x86_64/thunar/)|
 |Terminal|[kitty](https://github.com/kovidgoyal/kitty)|
 |Terminal Multiplexer|[tmux](https://github.com/tmux/tmux)|
 |Shell|[zsh](https://github.com/zsh-users/zsh)|
