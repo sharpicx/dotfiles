@@ -1,15 +1,16 @@
+# -------------------
 # terminal emulator :
-# -------------------------------
+# -------------------
 
 # tiled terminal:
 super + Return 
 	kitty
 
 super + shift + Return
-        bspc rule -a \* -o state=floating && kitty
+    bspc rule -a \* -o state=floating && kitty
 
 super + ctrl + shift + Return
-        kitty -e tmux new-session -s SHARPICX
+    kitty -e tmux new-session -s SHARPICX
 
 # --------------------------
 # Rofi & Any program launcher
@@ -17,11 +18,11 @@ super + ctrl + shift + Return
 
 # custom launcher
 super + alt + space  
-        $HOME/.config/rofi/launcher_bin.sh
+    $HOME/.config/rofi/launcher_bin.sh
 
 # main launcher
 super + space
-        $HOME/.config/rofi/launcher.sh
+    $HOME/.config/rofi/launcher.sh
 
 # system menu
 super + x
@@ -43,6 +44,10 @@ super + n
 super + r
 	bspc rule -a \* -o state=floating && kitty -e ranger
 
+# task list
+alt + t
+    bspc rule -a \* -o state=floating && kitty -e task list
+
 # screenshooting window
 super + Print 
      maim -s | xclip -sel clipboard -t image/png
@@ -52,14 +57,14 @@ Print
 	maim "$HOME/Pictures/screenshots/$(date +%d-%m-%y+%H-%M).png" && dunstify -i cs-screen "Shotted! " "Location ~/Pictures/screenshots/ \nFile named $(date +%d-%m-%y+%H-%M).png"
 
 super + question
-        flameshot gui
+    flameshot gui
 
 # notification controller
 ctrl + shift + space
-        dunstctl close-all
+    dunstctl close-all
 
 ctrl + alt + space
-        dunstctl history-pop
+    dunstctl history-pop
 
 # --------------
 # Audio
@@ -75,7 +80,7 @@ XF86AudioLowerVolume
 
 # audio muted
 XF86AudioMute
-        $HOME/.config/pamixer/volume.sh mute
+    $HOME/.config/pamixer/volume.sh mute
 
 # ----------
 # Brightness
@@ -83,11 +88,11 @@ XF86AudioMute
 
 # nambahin 5x 
 XF86MonBrightnessUp
-        brightnessctl s 1%+
+    brightnessctl s 1%+
 
 # nurunin 5x
 XF86MonBrightnessDown
-        brightnessctl s 1%-
+    brightnessctl s 1%-
 
 # reloading the config
 super + Escape
@@ -98,13 +103,13 @@ super + Escape
 # ------------
 
 XF86AudioPlay
-        playerctl --player=spotify play-pause
+    playerctl --player=spotify play-pause
 
 XF86AudioPrev
-        playerctl --player=spotify previous
+    playerctl --player=spotify previous
 
 XF86AudioNext
-        playerctl --player=spotify next
+    playerctl --player=spotify next
 
 # --------------------------------------
 # bspwm hotkeys aka keybinding for bspwm
