@@ -7,11 +7,11 @@ export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:/bin:/opt/google/chrome:$H
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk/bin
 
 # ENVIRONMENT
-# custom environment sets.
+# custom variable sets.
 LOCAL_HOST=$(ip add show wlan0 | tail +3 | head -1 | cut -f6 -d " " | awk '{print substr( $0, 1, length($0)-3)}')
 HTB_HOST=$(ip add show tun0 2>&1 | tail +3 | head -1 | cut -f6 -d " " | awk '{print substr( $0, 1, length($0)-3)}') # htb ip address
 CUSTOM_HOST=$(ip add show vboxnet0 2>&1 | tail +3 | head -1 | cut -f6 -d " " | awk '{print substr( $0, 1, length($0)-3)}') # biar ga repot aja sih while playing custom virtual machines.
-LPORT=12345
+LPORT=4999
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/via/.oh-my-zsh"
@@ -53,7 +53,7 @@ ZSH_THEME="mira"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -91,7 +91,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -107,23 +107,37 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
+
 # Example aliases
 alias ls="colorls"
-alias zshrc="vim ~/.zshrc"
-alias vimrc="vim ~/.vimrc"
-alias hotkeys="$HOME/hotkeys"
-alias downloadmp3="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s' -i $1 --add-header 'Accept-Encoding: identity;q=1, *;q=0'"
-alias dplaylist="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s' -i"
+alias zshrc="nvim ~/.zshrc"
+alias vimrc="nvim ~/.vimrc"
+alias nvimrc="vim ~/.config/nvim/init.lua"
+
+# system
+alias update="pacman -Syu"
+alias install="pacman -S"
+alias search="pacman -Ss"
+alias search-installed="pacman -Ss $1 | grep installed | sort"
+alias search-group="pacman -Sgg"
+
+# custom
+alias hotkeys="$HOME/hotkeys" # suckly this command created when i didnt know about linux at all.
+
+# customization
+alias dmp3="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s' -i $1 --add-header 'Accept-Encoding: identity;q=1, *;q=0'"
+alias dplist="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s' -i"
+
 alias htbIp="ip address | grep tun0 | grep inet | cut -f 6 -d ' '"
 
 alias tmux="tmux -f ~/.tmux.conf"
 
-# translate binaries
+# translation, because i'm not a native speaker.
 alias translate-en="translate -s en -t id $1"
 alias translate-id="translate -s id -t en $1"
 alias trans-en="trans en:id $1"
 alias trans-id="trans id:en $1" 
+
 # alias osint-lists=""
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
