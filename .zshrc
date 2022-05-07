@@ -113,17 +113,16 @@ alias ls="colorls"
 alias zshrc="nvim ~/.zshrc"
 alias vimrc="nvim ~/.vimrc"
 alias nvimrc="vim ~/.config/nvim/init.lua"
+alias edit="nvim"
 
 # system
-alias update="pacman -Syu"
-alias install="pacman -S"
-alias search="pacman -Ss"
-alias search-installed="pacman -Ss $1 | grep installed | sort"
+alias sys-search="pacman -Ss"
+alias sys-installed="pacman -Ss $1 | grep installed | sort"
 alias search-group="pacman -Sgg"
 
 # custom
 alias hotkeys="$HOME/hotkeys" # suckly this command created when i didnt know about linux at all.
-
+alias cboard="xclip -sel clipboard"
 # customization
 alias dmp3="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s' -i $1 --add-header 'Accept-Encoding: identity;q=1, *;q=0'"
 alias dplist="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s' -i"
