@@ -78,6 +78,22 @@ this part explicates about how i already completed solving some trouble issues w
 * <https://github.com/archcraft-os/archcraft-themes>
 * i will add more soon... if i had problem on my own.
 
+## Important tools.
+* [spicetify](https://github.com/spicetify/spicetify-cli)
+* [spotify-adblock](https://github.com/abba23/spotify-adblock)
+* [wiki](https://github.com/BetaPictoris/wiki)
+* [dict](https://github.com/BetaPictoris/dict)
+* [udict](https://github.com/genuinetools/udict)
+* [trans]()
+* [google-translate-cli](https://github.com/jesusalber1/google-translate-cli)
+* youtube-dl
+* xclip
+* betterdiscord
+* telegram
+* libreoffice
+* burpsuite pro
+
+
 ## Scrot
 ![gambar](screenshots/sharpicx.png)
 
