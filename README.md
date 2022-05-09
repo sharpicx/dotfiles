@@ -84,14 +84,15 @@ this part explicates about how i already completed solving some trouble issues w
 * [wiki](https://github.com/BetaPictoris/wiki)
 * [dict](https://github.com/BetaPictoris/dict)
 * [udict](https://github.com/genuinetools/udict)
-* [trans]()
+* [trans](https://github.com/soimort/translate-shell/)
 * [google-translate-cli](https://github.com/jesusalber1/google-translate-cli)
-* youtube-dl
+* [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 * xclip
 * betterdiscord
 * telegram
 * libreoffice
 * burpsuite pro
+* [seclists](https://github.com/danielmiessler/SecLists)
 
 
 ## Scrot
