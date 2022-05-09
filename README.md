@@ -79,7 +79,7 @@ this part explicates about how i already completed solving some trouble issues w
 * i will add more soon... if i had problem on my own.
 
 ## Scrot
-![gambar](https://i.ibb.co/fpyXVFc/26-04-22-05-29.png)
+![gambar](screenshots/sharpicx.png)
 
 ## Credits
 * [r/unixporn](https://reddit.com/r/unixporn) 
