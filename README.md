@@ -67,7 +67,7 @@ this part explicates about how i already completed solving some trouble issues w
 
 * ## Neovim 
    * ### Lua
-      about how i configured neovim, first of all u need to understand yourself lua.
+      about how i configured neovim, first of all u need to understand what lua is, here is some stuff you hafta take a look!
       * <https://moys.gov.iq/upload/common/Programming_in_Lua%2C_4th_ed._%282017%29_.pdf>
       * <https://link.springer.com/content/pdf/bbm%3A978-1-4020-9920-5%2F1.pdf>
       * <https://xp-soaring.github.io/xplane/library/FlyWithLua_Manual_en.pdf>
