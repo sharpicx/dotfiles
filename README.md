@@ -7,6 +7,7 @@
 |---|---|
 |GNU/Linux distro|[Arch Linux](https://archlinux.org)|
 |init system|[systemd](https://systemd.io/)|
+|display server|[X.org](https://www.x.org/wiki/)|
 |wm|[bspwm](https://github.com/baskerville/bspwm)|
 |networkmanager|[networkmanager](https://archlinux.org/packages/extra/x86_64/networkmanager/)|
 ||nmtui|
