@@ -26,7 +26,9 @@
 |shell|[zsh](https://github.com/zsh-users/zsh)|
 |launcher|[rofi](https://github.com/davatorium/rofi)|
 |notification daemon|[dunst](https://github.com/dunst-project/dunst)|
-|code editor|[neovim](https://github.com/neovim/neovim)|
+|code editor|[nvim](https://github.com/neovim/neovim)|
+||vim|
+||nano|
 |music|[yewtube](https://github.com/mps-youtube/yewtube)|
 |video|[mpv](https://github.com/mpv-player/mpv)|
 |scrot program|[flameshot](https://github.com/flameshot-org/flameshot)|
