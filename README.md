@@ -11,6 +11,8 @@
 |wm|[bspwm](https://github.com/baskerville/bspwm)|
 |networkmanager|[networkmanager](https://archlinux.org/packages/extra/x86_64/networkmanager/)|
 ||nmtui|
+|ls replacement|[exa](https://github.com/ogham/exa)|
+|cat replacement|[bat](https://github.com/sharkdp/bat)|
 |fonts|nerdfonts|
 ||fontawesome|
 ||feather|
