@@ -29,12 +29,7 @@
 |video|[mpv](https://github.com/mpv-player/mpv)|
 |scrot program|[flameshot](https://github.com/flameshot-org/flameshot)|
 ||[maim](https://github.com/naelstrof/maim)|
-|browser|[Google Chrome](https://aur.archlinux.org/packages/google-chrome/)|
-|theme|[Skueos GTK](https://github.com/daniruiz/skeuos-gtk)|
-|icon|Arc|
-||Archcraft-Dark|
-||Tela-dark|
-||[Tela-pink-dark](https://www.pling.com/p/1279924)|
+|browser|[chrome](https://aur.archlinux.org/packages/google-chrome/)|
 
 ## important tools
 * [wiki](https://github.com/BetaPictoris/wiki)
