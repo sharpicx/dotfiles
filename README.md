@@ -41,7 +41,7 @@
 * [udict](https://github.com/genuinetools/udict) -- lookin up for dictionary
 * [trans](https://github.com/soimort/translate-shell/) -- translation tool
 * [google-translate-cli](https://github.com/jesusalber1/google-translate-cli) -- tranlation tool
-* [tor](https://archlinux.org/packages/community/x86_64/tor/) -- components before anonymizing urself
+* [tor](https://archlinux.org/packages/community/x86_64/tor/) -- component before anonymizing urself
 * [hack-tools](https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi) -- helping u building a payload to play ctf things
 * [onion browser button](https://chrome.google.com/webstore/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca) -- anonymizing urself
 * [kbbi-cli](https://github.com/sharpicx/kbbi-cli) -- substantial tool for non-native speakers
