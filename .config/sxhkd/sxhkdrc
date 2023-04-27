@@ -11,10 +11,6 @@ super + Return
 # applications
 # ---------------------------
 
-# password
-super + p 
-  echo "fazlemawla" | rz-ax -S | base64 | xclip -selection clipboard && dunstify -I $HOME/.icons/Arc/actions/24@2x/rhythmbox-set-star.png "Password copied!"
-
 # screenshooting window
 super + Print 
    maim -s | xclip -sel clipboard -t image/png
