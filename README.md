@@ -2,9 +2,7 @@
 # sharpicx personal dotfiles
 
 ```
-
-##  Components
-
+##  components
 |Program|Name|
 |---|---|
 |GNU/Linux Distro|[Arch Linux](https://archlinux.org)|
@@ -36,7 +34,7 @@
 ||Tela-dark|
 ||[Tela-pink-dark](https://www.pling.com/p/1279924)|
 
-## Important tools.
+## important tools
 * [wiki](https://github.com/BetaPictoris/wiki)
 * [dict](https://github.com/BetaPictoris/dict)
 * [udict](https://github.com/genuinetools/udict)
@@ -45,6 +43,7 @@
 * [tor](https://archlinux.org/packages/community/x86_64/tor/)
 * [hack-tools](https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi)
 * [onion browser button](https://chrome.google.com/webstore/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca)
+* [kbbi-cli](https://github.com/sharpicx/kbbi-cli)
 
 ## Credits
 * [r/unixporn](https://reddit.com/r/unixporn) 
