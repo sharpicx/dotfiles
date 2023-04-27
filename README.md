@@ -13,9 +13,9 @@
 ||nmtui|
 |ls replacement|[exa](https://github.com/ogham/exa)|
 |cat replacement|[bat](https://github.com/sharkdp/bat)|
-|fonts|nerdfonts|
-||fontawesome|
-||feather|
+|fonts|[nerdfonts](https://nerdfonts.com/)|
+||[fontawesome](https://fontawesome.com/v5/cheatsheet)|
+||[feather](https://dropways.github.io/feathericons/) stole from archcraft|
 ||notofonts|
 ||[unifont](https://github.com/makinacorpus/mapnik2/blob/master/fonts/unifont-5.1.20080907.ttf)|
 |compositor|[picom-jongaburg-fix](https://github.com/Arian8j2/picom-jonaburg-fix)|
