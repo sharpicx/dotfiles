@@ -47,6 +47,10 @@
 * [kbbi-cli](https://github.com/sharpicx/kbbi-cli) -- substantial tool for non-native speakers
 * [bob](https://github.com/MordechaiHadad/bob) -- version manager of nvim
 * [gdb-peda-pwndbg-gef](https://github.com/apogiatzis/gdb-peda-pwndbg-gef) -- binary exploitation tools
+* [ghidra](https://ghidra-sre.org/) -- disassembler & decompiler
+* [cutter](https://github.com/rizinorg/cutter) -- disassembler & decompiler
+* [rizin](https://archlinux.org/packages/community/x86_64/rizin/) -- reversing tools.
+
 
 ## Credits
 * [r/unixporn](https://reddit.com/r/unixporn) 
