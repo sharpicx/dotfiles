@@ -53,6 +53,11 @@
 * [cutter](https://github.com/rizinorg/cutter) -- disassembler & decompiler
 * [rizin](https://archlinux.org/packages/community/x86_64/rizin/) -- reversing tools
 
+## java gettin broken?
+```
+pacman -S wmname
+wmname LG3D &
+```
 
 ## credits
 * [r/unixporn](https://reddit.com/r/unixporn) 
