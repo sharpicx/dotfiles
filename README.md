@@ -51,7 +51,7 @@
 * [gdb-peda-pwndbg-gef](https://github.com/apogiatzis/gdb-peda-pwndbg-gef) -- binary exploitation tools
 * [ghidra](https://ghidra-sre.org/) -- disassembler & decompiler
 * [cutter](https://github.com/rizinorg/cutter) -- disassembler & decompiler
-* [rizin](https://archlinux.org/packages/community/x86_64/rizin/) -- reversing tools.
+* [rizin](https://archlinux.org/packages/community/x86_64/rizin/) -- reversing tools
 
 
 ## Credits
