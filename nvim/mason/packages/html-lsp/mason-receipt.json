@@ -1,0 +1,1 @@
+{"secondary_sources":[],"metrics":{"completion_time":1669546945970,"start_time":1669546938805},"primary_source":{"package":"vscode-langservers-extracted","type":"npm"},"links":{"bin":{"vscode-html-language-server":"node_modules\/.bin\/vscode-html-language-server"}},"name":"html-lsp","schema_version":"1.0"}

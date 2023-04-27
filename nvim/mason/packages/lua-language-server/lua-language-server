@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec "/home/via/.local/share/nvim/mason/packages/lua-language-server/extension/server/bin/lua-language-server" "$@"

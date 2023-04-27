@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/via/.config/nvim/lua/user'
+let g:netrw_dirhist_6='/home/via/.local/share/nvim/site/pack/packer/start/neodark.nvim/lua/neodark/theme'
+let g:netrw_dirhist_5='/home/via/.local/share/nvim/site/pack/packer/start/neodark.nvim/lua/neodark'
+let g:netrw_dirhist_4='/home/via/.local/share/nvim/site/pack/packer/start/neodark.nvim/lua/neodark/theme'
+let g:netrw_dirhist_3='/home/via/.local/share/nvim/site/pack/packer/start/neodark.nvim/lua/neodark'
+let g:netrw_dirhist_2='/home/via/.local/share/nvim/site/pack/packer/start/neodark.nvim/lua/neodark/theme'
+let g:netrw_dirhist_1='/home/via/.local/share/nvim/site/pack/packer/start/neodark.nvim/lua/neodark'
+let g:netrw_dirhist_0='/home/via/.local/share/nvim/site/pack/packer/start/neodark.nvim/lua/neodark/theme'
+let g:netrw_dirhist_9='/home/via/.local/share/nvim/site/pack/packer/start/neodark.nvim/lua/neodark'
+let g:netrw_dirhist_8='/home/via/.config/nvim/lua/user'

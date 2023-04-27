@@ -1,0 +1,31 @@
+[10:28:24.750][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:65]: Lua Lsp startup, root: 	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[10:28:24.773][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:66]: ROOT:	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[10:28:24.773][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:67]: LOGPATH:	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log
+[10:28:24.773][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:68]: METAPATH:	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta
+[10:28:24.786][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:69]: VERSION:	3.5.2
+[10:28:25.712][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.548 MB
+        # 00 : 1.548 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[10:28:25.895][info] [#0:script/language.lua:137]: VSC language: nil
+[10:28:25.895][info] [#0:script/language.lua:138]: LS  language: en-us
+[10:28:25.896][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/via/.config/nvim
+[10:28:25.896][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log/file_home_via_.config_nvim.log

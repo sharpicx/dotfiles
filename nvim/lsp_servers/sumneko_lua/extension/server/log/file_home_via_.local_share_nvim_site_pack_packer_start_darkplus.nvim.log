@@ -1,0 +1,167 @@
+[10:34:11.014][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:65]: Lua Lsp startup, root: 	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[10:34:11.014][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:66]: ROOT:	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[10:34:11.014][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:67]: LOGPATH:	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log
+[10:34:11.014][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:68]: METAPATH:	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta
+[10:34:11.014][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:69]: VERSION:	3.5.2
+[10:34:11.053][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.548 MB
+        # 00 : 1.548 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[10:34:11.164][info] [#0:script/language.lua:137]: VSC language: nil
+[10:34:11.164][info] [#0:script/language.lua:138]: LS  language: en-us
+[10:34:11.164][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.165][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log/file_home_via_.local_share_nvim_site_pack_packer_start_darkplus.nvim.log
+[10:34:11.165][info] [#0:script/workspace/workspace.lua:51]: Workspace create: 	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.170][info] [#0:script/provider/provider.lua:42]: Load config from client	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.170][info] [#0:script/provider/provider.lua:43]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[10:34:11.171][info] [#0:script/provider/provider.lua:42]: Load config from client	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.171][info] [#0:script/provider/provider.lua:43]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[10:34:11.171][info] [#0:script/provider/provider.lua:42]: Load config from client	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.172][info] [#0:script/provider/provider.lua:43]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[10:34:11.172][info] [#0:script/provider/provider.lua:57]: Load config from client	fallback
+[10:34:11.172][info] [#0:script/provider/provider.lua:58]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[10:34:11.172][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.188][info] [#0:script/plugin.lua:86]: plugin path:	/home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.188][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.188][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[10:34:11.203][info] [#0:script/provider/provider.lua:57]: Load config from client	fallback
+[10:34:11.203][info] [#0:script/provider/provider.lua:58]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[10:34:11.204][info] [#0:script/provider/provider.lua:57]: Load config from client	fallback
+[10:34:11.204][info] [#0:script/provider/provider.lua:58]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[10:34:11.204][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.206][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:11.207][info] [#0:script/workspace/workspace.lua:305]: Preload start:	<fallback>
+[10:34:11.208][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/Lua%205.4%20en-us%20utf8
+[10:34:11.213][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///usr/local/share/nvim/runtime/lua
+[10:34:11.224][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/via/.config/nvim/lua
+[10:34:11.234][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/Lua%205.4%20en-us%20utf8
+[10:34:11.236][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///usr/local/share/nvim/runtime/lua
+[10:34:11.239][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/via/.config/nvim/lua
+[10:34:13.087][info] [#0:script/workspace/workspace.lua:348]: Found 74 files at:	<fallback>
+[10:34:13.087][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	<fallback>
+[10:34:13.088][info] [#0:script/workspace/workspace.lua:348]: Found 80 files at:	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:13.088][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:13.155][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.081] sec: <fallback>
+[10:34:13.155][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: <fallback>
+[10:34:13.155][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	<fallback>
+[10:34:13.155][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	<fallback>
+[10:34:13.176][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[10:34:15.088][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.107] sec: file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:15.088][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:15.090][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:15.090][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim
+[10:34:15.904][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[80]
+[10:34:15.904][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[10:34:16.016][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [0.113] sec.
+[10:34:16.017][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim], files count:[80]
+[10:34:16.226][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/via/.local/share/nvim/site/pack/packer/start/darkplus.nvim] finished, takes [0.208] sec.
+[10:41:39.425][info] [#0:script/provider/provider.lua:168]: Server shutdown.
+[10:41:39.426][info] [#0:script/provider/provider.lua:161]: Server exited.

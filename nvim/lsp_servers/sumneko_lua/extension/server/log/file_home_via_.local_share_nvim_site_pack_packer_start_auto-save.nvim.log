@@ -1,0 +1,168 @@
+[11:45:59.184][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:65]: Lua Lsp startup, root: 	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[11:45:59.184][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:66]: ROOT:	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[11:45:59.184][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:67]: LOGPATH:	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log
+[11:45:59.184][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:68]: METAPATH:	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta
+[11:45:59.184][info] [#0:/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:69]: VERSION:	3.5.2
+[11:45:59.216][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.548 MB
+        # 00 : 1.548 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:45:59.331][info] [#0:script/language.lua:137]: VSC language: nil
+[11:45:59.331][info] [#0:script/language.lua:138]: LS  language: en-us
+[11:45:59.331][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.331][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log/file_home_via_.local_share_nvim_site_pack_packer_start_auto-save.nvim.log
+[11:45:59.331][info] [#0:script/workspace/workspace.lua:51]: Workspace create: 	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.938][info] [#0:script/provider/provider.lua:42]: Load config from client	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.938][info] [#0:script/provider/provider.lua:43]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[11:45:59.939][info] [#0:script/provider/provider.lua:42]: Load config from client	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.939][info] [#0:script/provider/provider.lua:43]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[11:45:59.939][info] [#0:script/provider/provider.lua:42]: Load config from client	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.939][info] [#0:script/provider/provider.lua:43]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[11:45:59.940][info] [#0:script/provider/provider.lua:57]: Load config from client	fallback
+[11:45:59.940][info] [#0:script/provider/provider.lua:58]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[11:45:59.940][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.969][info] [#0:script/plugin.lua:86]: plugin path:	/home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.969][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.969][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[11:45:59.988][info] [#0:script/provider/provider.lua:57]: Load config from client	fallback
+[11:45:59.988][info] [#0:script/provider/provider.lua:58]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[11:45:59.988][info] [#0:script/provider/provider.lua:57]: Load config from client	fallback
+[11:45:59.988][info] [#0:script/provider/provider.lua:58]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/via/.config/nvim/lua"] = true,
+        ["/usr/local/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[11:45:59.989][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.992][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:45:59.992][info] [#0:script/workspace/workspace.lua:305]: Preload start:	<fallback>
+[11:45:59.994][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/Lua%205.4%20en-us%20utf8
+[11:45:59.999][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///usr/local/share/nvim/runtime/lua
+[11:46:00.009][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/via/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/Lua%205.4%20en-us%20utf8
+[11:46:00.012][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/via/.config/nvim/lua
+[11:46:00.013][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///usr/local/share/nvim/runtime/lua
+[11:46:00.019][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/via/.config/nvim/lua
+[11:46:01.244][info] [#0:script/workspace/workspace.lua:348]: Found 74 files at:	<fallback>
+[11:46:01.244][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	<fallback>
+[11:46:01.244][info] [#0:script/workspace/workspace.lua:348]: Found 80 files at:	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:46:01.245][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:46:01.325][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.103] sec: file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:46:01.325][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:46:01.325][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:46:01.325][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim
+[11:46:02.078][warn] [#0:script/await.lua:186]: Await step takes [0.748] sec.
+[11:46:02.078][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.852] sec: <fallback>
+[11:46:02.078][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: <fallback>
+[11:46:02.078][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	<fallback>
+[11:46:02.078][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	<fallback>
+[11:46:02.100][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[11:46:02.201][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[11:46:03.243][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[80]
+[11:46:03.245][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim], files count:[80]
+[11:46:03.684][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [0.436] sec.
+[11:46:03.684][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/via/.local/share/nvim/site/pack/packer/start/auto-save.nvim] finished, takes [0.435] sec.
+[11:46:14.147][info] [#0:script/provider/provider.lua:168]: Server shutdown.
+[11:46:14.248][info] [#0:script/provider/provider.lua:161]: Server exited.

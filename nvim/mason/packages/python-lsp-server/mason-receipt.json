@@ -1,0 +1,1 @@
+{"name":"python-lsp-server","links":{"bin":{"pylsp":"venv\/bin\/pylsp"}},"metrics":{"start_time":1669546774543,"completion_time":1669546815544},"secondary_sources":[],"schema_version":"1.0","primary_source":{"package":"python-lsp-server[all]","type":"pip3"}}
