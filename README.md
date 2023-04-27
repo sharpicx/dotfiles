@@ -45,6 +45,7 @@
 * [hack-tools](https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi)
 * [onion browser button](https://chrome.google.com/webstore/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca)
 * [kbbi-cli](https://github.com/sharpicx/kbbi-cli)
+* [bob](https://github.com/MordechaiHadad/bob) -- version manager of nvim
 
 ## Credits
 * [r/unixporn](https://reddit.com/r/unixporn) 
