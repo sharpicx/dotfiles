@@ -54,7 +54,7 @@
 * [rizin](https://archlinux.org/packages/community/x86_64/rizin/) -- reversing tools
 
 
-## Credits
+## credits
 * [r/unixporn](https://reddit.com/r/unixporn) 
 * [Aditya Shakya](https://github.com/adi1090x) 
 * [Rizqi Nur Assyaufi](https://github.com/bandithijo) 
