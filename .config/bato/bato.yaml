@@ -1,0 +1,98 @@
+# List of all options
+
+# If the word "required" is mentioned, the corresponding option is required.
+# Otherwise it is optional.
+
+
+# # # # #
+# Root  #
+# # # # #
+
+# tick_rate: u32, default: 5
+#
+# The refresh rate in second of bato.
+#
+tick_rate: 1
+
+# bat_name: String, default: BAT0
+#
+# The battery name under /sys/class/power_supply/
+#
+bat_name: BAT1
+
+# critical_level: String, required
+#
+# The critical level of the battery, as a percentage.
+#
+critical_level: 5
+
+# low_level: String, required
+#
+# The low level of the battery, as a percentage.
+#
+low_level: 30
+
+# full_design: bool, default: true
+#
+# Whether or not the current level is calculated based on the full design value.
+#
+full_design: true
+
+# # # # # # # # #
+# notifications #
+# # # # # # # # #
+
+# They are all optional. If you omit one, the corresponding notification is disabled.
+
+critical:
+   summary: Critical Battery Level!
+   body: Please plug the power cable ASAP into your machine, you fkin kiddo
+   icon: battery-caution
+   # urgency:
+
+low:
+   summary: Battery Low!
+   body: Please better charge your battery machine before the FBI breaks your kid down!
+   icon: battery-040
+   # urgency:
+
+full:
+   summary: Battery Full!
+   body: Are you dumb or something? The battery is full why dont you understand? you shit!
+   icon: battery-full
+   urgency: Low
+
+charging:
+   summary: Battery Charging
+   body: Please dont do anything while your machine is charging, you stupid as moron.
+   icon: battery-good-charging
+
+discharging:
+
+# Takes the following options:
+
+  # summary: String, required
+  #
+  # The summary (title) of the notification.
+  #
+  summary: Battery Discharging
+
+  # body: String, default: NULL (no body)
+  #
+  # The body of the notification.
+  #
+  body: As i said, the battery is charging why did you unplug the power cable, kiddo? 
+
+  # icon: String, default: NULL (no icon)
+  #
+  # The icon name of the notification.
+  #
+  icon: battery-good
+
+  # urgency: String, default: Critical for critical level, Normal for other
+  #
+  # enum Urgency { Low, Normal, Critical }
+  #
+  # The urgency level of the notification.
+  #
+  # urgency: Critical
