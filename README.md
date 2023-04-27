@@ -29,6 +29,8 @@
 |code editor|[nvim](https://github.com/neovim/neovim)|
 ||vim|
 ||nano|
+|volume control|pavucontrol|
+||pamixer|
 |music|[yewtube](https://github.com/mps-youtube/yewtube)|
 |video|[mpv](https://github.com/mpv-player/mpv)|
 |scrot program|[flameshot](https://github.com/flameshot-org/flameshot)|
