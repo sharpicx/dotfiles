@@ -61,7 +61,8 @@ wmname LG3D &
 ```
 ### xdg-desktop-portal & xdg-desktop-portal-gnome
 * <https://bbs.archlinux.org/viewtopic.php?id=285590>
-* 
+
+
 ## credits
 * [r/unixporn](https://reddit.com/r/unixporn) 
 * [Aditya Shakya](https://github.com/adi1090x) 
