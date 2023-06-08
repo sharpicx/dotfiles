@@ -53,12 +53,15 @@
 * [cutter](https://github.com/rizinorg/cutter) -- disassembler & decompiler
 * [rizin](https://archlinux.org/packages/community/x86_64/rizin/) -- reversing tools
 
-## java gettin broken?
+## issues
+### Java:
 ```
 pacman -S wmname
 wmname LG3D &
 ```
-
+### xdg-desktop-portal & xdg-desktop-portal-gnome
+* <https://bbs.archlinux.org/viewtopic.php?id=285590>
+* 
 ## credits
 * [r/unixporn](https://reddit.com/r/unixporn) 
 * [Aditya Shakya](https://github.com/adi1090x) 
