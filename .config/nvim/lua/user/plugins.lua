@@ -40,7 +40,6 @@ packer.init({
 
 -- Install your plugins here
 return packer.startup(function(use)
-  use { 'MunifTanjim/prettier.nvim' } 
   use { "wbthomason/packer.nvim", commit = "6afb67460283f0e990d35d229fd38fdc04063e0a" } -- Have packer manage itself
   use { "nvim-lua/plenary.nvim", commit = "4b7e52044bbb84242158d977a50c4cbcd85070c7" } -- Useful lua functions used by lots of plugins
   use { "windwp/nvim-autopairs", commit = "4fc96c8f3df89b6d23e5092d31c866c53a346347" } -- Autopairs, integrates with both cmp and treesitter
@@ -57,62 +56,56 @@ return packer.startup(function(use)
   use { "lukas-reineke/indent-blankline.nvim", commit = "db7cbcb40cc00fc5d6074d7569fb37197705e7f6" }
   use { "goolord/alpha-nvim", commit = "0bb6fc0646bcd1cdb4639737a1cee8d6e08bcc31" }
 	use {"folke/which-key.nvim"}
+  use "lunarvim/horizon.nvim"
   use({
 	"Pocco81/auto-save.nvim",
 	config = function()
-		require("auto-save").setup {   
-      enabled = true, -- start auto-save when the plugin is loaded (i.e. when your package manager loads it)
-      execution_message = {
-	  	message = function() -- message to print on save
-		  	return ("AutoSave: saved at " .. vim.fn.strftime("%H:%M:%S"))
-		  end,
-		  dim = 0.18, -- dim the color of `message`
-		  cleaning_interval = 1250, -- (milliseconds) automatically clean MsgArea after displaying `message`. See :h MsgArea
-	  },
+		 require("auto-save").setup {
+			-- your config goes here
+			-- or just leave it empty :)
+      {
+    enabled = true, -- start auto-save when the plugin is loaded (i.e. when your package manager loads it)
+    execution_message = {
+		message = function() -- message to print on save
+			return ("AutoSave: saved at " .. vim.fn.strftime("%H:%M:%S"))
+		end,
+		dim = 0.18, -- dim the color of `message`
+		cleaning_interval = 1250, -- (milliseconds) automatically clean MsgArea after displaying `message`. See :h MsgArea
+	},
     trigger_events = {"InsertLeave", "TextChanged"}, -- vim events that trigger auto-save. See :h events
-	  -- function that determines whether to save the current buffer or not
-	  -- return true: if buffer is ok to be saved
-	  -- return false: if it's not ok to be saved
-	  condition = function(buf)
-		  local fn = vim.fn
-		  local utils = require("auto-save.utils.data")
+	-- function that determines whether to save the current buffer or not
+	-- return true: if buffer is ok to be saved
+	-- return false: if it's not ok to be saved
+	condition = function(buf)
+		local fn = vim.fn
+		local utils = require("auto-save.utils.data")
 
-		  if
-			  fn.getbufvar(buf, "&modifiable") == 1 and
-			  utils.not_in(fn.getbufvar(buf, "&filetype"), {}) then
-			  return true -- met condition(s), can save
-		  end
-		    return false -- can't save
-	    end,
-          write_all_buffers = false, -- write all buffers when the current one meets `condition`
-          debounce_delay = 135, -- saves the file at most every `debounce_delay` milliseconds
-        	callbacks = { -- functions to be executed at different intervals
-		      enabling = nil, -- ran when enabling auto-save
-		      disabling = nil, -- ran when disabling auto-save
-		      before_asserting_save = nil, -- ran before checking `condition`
-		      before_saving = nil, -- ran before doing the actual save
-		      after_saving = nil -- ran after doing the actual save
-	      }
-      }
+		if
+			fn.getbufvar(buf, "&modifiable") == 1 and
+			utils.not_in(fn.getbufvar(buf, "&filetype"), {}) then
+			return true -- met condition(s), can save
+		end
+		return false -- can't save
+	end,
+    write_all_buffers = false, -- write all buffers when the current one meets `condition`
+    debounce_delay = 135, -- saves the file at most every `debounce_delay` milliseconds
+	callbacks = { -- functions to be executed at different intervals
+		enabling = nil, -- ran when enabling auto-save
+		disabling = nil, -- ran when disabling auto-save
+		before_asserting_save = nil, -- ran before checking `condition`
+		before_saving = nil, -- ran before doing the actual save
+		after_saving = nil -- ran after doing the actual save
+	}
+}
+		 }
 	end,
 })
-  use {	"rcarriga/nvim-notify" }
 
-  -- Colorschemes
+	-- Colorschemes
   use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
-  use { "catppuccin/nvim", as = "catppuccin" }
-  use 'rockerBOO/boo-colorscheme-nvim'
-  use 'Shatur/neovim-ayu' 
-  use 'marko-cerovac/material.nvim'
-  use {'nyoom-engineering/oxocarbon.nvim'}
-  use 'navarasu/onedark.nvim' 
-  use "VDuchauffour/neodark.nvim"
+  use { "lunarvim/darkplus.nvim", commit = "13ef9daad28d3cf6c5e793acfc16ddbf456e1c83" }
 
-
-  -- lua development
-  use 'folke/neodev.nvim'
-
-  -- Cmp 
+	-- Cmp 
   use { "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" } -- The completion plugin
   use { "hrsh7th/cmp-buffer", commit = "3022dbc9166796b644a841a02de8dd1cc1d311fa" } -- buffer completions
   use { "hrsh7th/cmp-path", commit = "447c87cdd6e6d6a1d2488b1d43108bfa217f56e1" } -- path completions
@@ -129,7 +122,7 @@ return packer.startup(function(use)
   use { "williamboman/mason.nvim", commit = "c2002d7a6b5a72ba02388548cfaf420b864fbc12"} -- simple to use language server installer
   use { "williamboman/mason-lspconfig.nvim", commit = "0051870dd728f4988110a1b2d47f4a4510213e31" }
 	use { "jose-elias-alvarez/null-ls.nvim", commit = "c0c19f32b614b3921e17886c541c13a72748d450" } -- for formatters and linters
-  use { "RRethy/vim-illuminate", commit = "a2e8476af3f3e993bb0d6477438aad3096512e42" }
+  use { "RRethy/vim-illuminate", commit = "d6ca7f77eeaf61b3e6ce9f0e5a978d606df44298" }
 
 	-- Telescope
 	use { "nvim-telescope/telescope.nvim", commit = "76ea9a898d3307244dce3573392dcf2cc38f340f" }
@@ -137,12 +130,21 @@ return packer.startup(function(use)
 	-- Treesitter
 	use {
 		"nvim-treesitter/nvim-treesitter",
-		commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac",
+		commit = "226c1475a46a2ef6d840af9caa0117a439465500",
 	}
 
 	-- Git
 	use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }
 
+  -- custom
+  use 'tamton-aquib/staline.nvim'
+  -- install without yarn or npm
+use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+})
+
+use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

@@ -5,34 +5,30 @@ end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
-[[                  ▄]],
-[[                 ▄█▄]],
-[[                ▄███▄]],
-[[               ▄█████▄]],
-[[              ▄███████▄]],
-[[             ▄ ▀▀██████▄]],
-[[            ▄██▄▄ ▀█████▄]],
-[[           ▄█████████████▄]],
-[[          ▄███████████████▄]],
-[[         ▄█████████████████▄]],
-[[        ▄███████████████████▄]],
-[[       ▄█████████▀▀▀▀████████▄]],
-[[      ▄████████▀      ▀███████▄]],
-[[     ▄█████████        ████▀▀██▄]],
-[[    ▄██████████        █████▄▄▄]],
-[[   ▄██████████▀        ▀█████████▄]],
-[[  ▄██████▀▀▀              ▀▀██████▄]],
-[[ ▄███▀▀                       ▀▀███▄]],
-[[▄▀▀                               ▀▀▄]]
+[[               -@                ]],
+[[              .##@               ]],
+[[             .####@              ]],
+[[             @#####@             ]],
+[[           . *######@            ]],
+[[          .##@o@#####@           ]],
+[[         /############@          ]],
+[[        /##############@         ]],
+[[       @######@**%######@        ]],
+[[      @######`     %#####o       ]],
+[[     @######@       ######%      ]],
+[[   -@#######h       ######@.`    ]],
+[[  /#####h**``       `**%@####@   ]],
+[[ @H@*`                    `*%#@  ]],
+[[*`                            `* ]],
 }
 dashboard.section.buttons.val = {
-	dashboard.button("f", "  Cari file", ":Telescope find_files <CR>"),
-	dashboard.button("e", "  File Baru", ":ene <BAR> startinsert <CR>"),
-	dashboard.button("p", "  Cari Project", ":Telescope projects <CR>"),
-	dashboard.button("r", "  File baru-baru ini", ":Telescope oldfiles <CR>"),
-	dashboard.button("t", "  Cari teks", ":Telescope live_grep <CR>"),
-	dashboard.button("c", "  Konfigurasi", ":e $MYVIMRC <CR>"),
-	dashboard.button("q", "  Keluar Neovim", ":qa<CR>"),
+	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
+	dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
+	dashboard.button("p", "  Find project", ":Telescope projects <CR>"),
+	dashboard.button("r", "  Recently used files", ":Telescope oldfiles <CR>"),
+	dashboard.button("t", "󱎸  Find text", ":Telescope live_grep <CR>"),
+	dashboard.button("c", "  Configuration", ":e $MYVIMRC <CR>"),
+	dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
 }
 
 local function footer()
@@ -41,7 +37,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "sharpicx"
+	return "sharpicx.eu.org"
 end
 
 dashboard.section.footer.val = footer()
