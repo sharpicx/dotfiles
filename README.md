@@ -1,7 +1,3 @@
-```sh
-# sharpicx personal dotfiles
-
-```
 ##  components
 |Program|Name|
 |---|---|
@@ -18,7 +14,7 @@
 ||[feather](https://dropways.github.io/feathericons/) stole from archcraft|
 ||notofonts|
 ||[unifont](https://github.com/makinacorpus/mapnik2/blob/master/fonts/unifont-5.1.20080907.ttf)|
-|compositor|[picom-jongaburg-fix](https://github.com/Arian8j2/picom-jonaburg-fix)|
+|compositor|[pijulius-picom](https://github.com/pijulius/picom )|
 |bar|[polybar](https://github.com/polybar/polybar)|
 |file manager|[ranger](https://github.com/ranger/ranger)|
 |terminal|[kitty](https://github.com/kovidgoyal/kitty)|
@@ -27,11 +23,9 @@
 |launcher|[rofi](https://github.com/davatorium/rofi)|
 |notification daemon|[dunst](https://github.com/dunst-project/dunst)|
 |code editor|[nvim](https://github.com/neovim/neovim)|
-||vim|
-||nano|
 |volume control|pavucontrol|
 ||pamixer|
-|music|[yewtube](https://github.com/mps-youtube/yewtube)|
+|music|spotify|
 |video|[mpv](https://github.com/mpv-player/mpv)|
 |scrot program|[flameshot](https://github.com/flameshot-org/flameshot)|
 ||[maim](https://github.com/naelstrof/maim)|
@@ -54,12 +48,17 @@
 * [rizin](https://archlinux.org/packages/community/x86_64/rizin/) -- reversing tools
 
 ## issues
-### Java:
 ```
-pacman -S wmname
-wmname LG3D &
+~# pacman -S wmname
+~# echo "wmname LG3D / compiz / Metacity" >> ~/.config/bspwm/bspwmrc
 ```
-### xdg-desktop-portal & xdg-desktop-portal-gnome
+```
+sudo pacman-key --init
+sudo pacman-key --populate
+sudo pacman-key --refresh-keys
+sudo pacman -Syy
+```
+#### xdg-desktop-portal & xdg-desktop-portal-gnome
 * <https://bbs.archlinux.org/viewtopic.php?id=285590>
 
 
