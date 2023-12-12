@@ -47,6 +47,10 @@
 * [cutter](https://github.com/rizinorg/cutter) -- disassembler & decompiler
 * [rizin](https://archlinux.org/packages/community/x86_64/rizin/) -- reversing tools
 
+## preview
+![image](https://github.com/sharpicx/dotfiles/assets/44630640/6d2bfc59-9b90-4733-98a2-8f59dfbb9612)
+
+
 ## issues
 ```
 ~# pacman -S wmname
