@@ -1,13 +1,11 @@
 # coded by sharpicx 
 # original writings
-export TOKEN_GH=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
 export TERM='xterm-256color'
 export HISTFILE=~/.zsh_history
 export EDITOR='nvim'
 export TERMINAL='kitty'
 export BROWSER='google-chrome-stable'
 export MANPAGER="bat -l man -p"
-export WPSCAN_API=F0y3fug9G1J53tJH5q1QovCO8g7pp7WA0XBB99s7eds
 export TESSDATA_PREFIX=/usr/share/tessdata
 export HISTFILESIZE=1000000000
 export HISTSIZE=1000000000
